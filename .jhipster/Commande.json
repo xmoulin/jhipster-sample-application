@@ -1,0 +1,38 @@
+{
+    "name": "Commande",
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "plat",
+            "otherEntityRelationshipName": "commande",
+            "relationshipName": "employee"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "boisson",
+            "otherEntityRelationshipName": "commande",
+            "relationshipName": "employee"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "dessert",
+            "otherEntityRelationshipName": "commande",
+            "relationshipName": "employee"
+        }
+    ],
+    "changelogDate": "20190624134851",
+    "entityTableName": "commande",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}
