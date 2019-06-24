@@ -1,0 +1,27 @@
+{
+    "name": "Commande",
+    "fields": [
+        {
+            "fieldName": "plat",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "dessert",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "boisson",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20190624142639",
+    "entityTableName": "commande",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}
